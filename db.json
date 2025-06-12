@@ -8,14 +8,16 @@
        {"id":5,"function_name":"醫生獎金設定","parent":1,"isGroup":false,"route":"DoctorBonusSetting"},
        {"id":6,"function_name":"KPI模組","parent":0,"isGroup":true,"route":""},
        {"id":7,"function_name":"KPI計算","parent":6,"isGroup":false,"route":"home"},
-       {"id":8,"function_name":"KPI設定","parent":6,"isGroup":false,"route":"home"}
+       {"id":8,"function_name":"KPI設定","parent":6,"isGroup":false,"route":"home"},
+       {"id":9,"function_name":"使用者管理","parent":0,"isGroup":false,"route":"userManagement"}
       ]
     },
   "doctorBonusSetting":
-    { "NotSet":[{"id":4,"name":"蔡醫生"},{"id":5,"name":"錢醫生"}],
+    { "NotSet":[{"id":4,"name":"蔡醫生"},{"id":5,"name":"錢醫生"},{"id":6,"name":"游醫生"}],
       "Set":[{"id":1,"name":"泰有錢","bonusType":"業績與診費取高者","consultationFee":2000,"bonusPercent":0.2},
              {"id":2,"name":"甄有錢","bonusType":"業績與診費合併計算","consultationFee":1667,"bonusPercent":0.15},
-             {"id":3,"name":"還有錢","bonusType":"診費","consultationFee":4000,"bonusPercent":0}]
+             {"id":3,"name":"還有錢","bonusType":"診費","consultationFee":4000,"bonusPercent":0},
+             {"id":7,"name":"步缺錢","bonusType":"業績","consultationFee":0,"bonusPercent":0.5}]
     },
   "profile": {
     "name": "typicode"
