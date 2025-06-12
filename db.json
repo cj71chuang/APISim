@@ -1,7 +1,7 @@
 {
   "functionList": 
     {"function":[
-       {"id":1,"function_name":"獎金模組","parent":0,"\"isGroup":true,"route":""},
+       {"id":1,"function_name":"獎金模組","parent":0,"isGroup":true,"route":""},
        {"id":2,"function_name":"獎金計算","parent":1,"isGroup":false,"route":"home"},
        {"id":3,"function_name":"銷售獎金設定","parent":1,"isGroup":false,"route":"home"},
        {"id":4,"function_name":"操作獎金設定","parent":1,"isGroup":false,"route":"home"},
